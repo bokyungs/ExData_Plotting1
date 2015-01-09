@@ -14,7 +14,7 @@ electric power consumption Data Set".  It was available from
 ## Loading the data
 
 
-* The dataset has 2,075,259 rows and 9 columns. I load read in the data from 2/1/2007 and 2/2/2007.
+* The dataset has 2,075,259 rows and 9 columns. I read in the data from 2/1/2007 and 2/2/2007.
 
 * I opened the input file in NotePad and determined the line number where the 2/1/2007 data started.
 
@@ -28,7 +28,7 @@ minutes were in the two days.
 I forked the instructor's GitHub repository (https://github.com/rdpeng/ExData_Plotting1](https://github.com/rdpeng/ExData_Plotting1) 
 and cloned it on my Desktop.
 
-In additon to this READE.md file, there are 8 files in my repository:
+In additon to this READE.md file, there are 8 files in my repository:  
 4 R scripts: plot1.R, plot2.R, plot3.R, and plot4.R    
 4 png files: plot1.png, plot2.png, plot3.png, plot4.png 
 
