@@ -20,8 +20,7 @@ electric power consumption Data Set".  It was available from
 
 * I skipped all the data prior to 2/1/2007.
 
-* Since the measurement was taken every 1 min., I computed the number of lines to read in by computing how many   
-minutes were in the two days.
+* Since the measurement was taken every 1 min., I computed the number of lines to read in by computing how many minutes were in the two days.
 
 ## Making Plots
 
