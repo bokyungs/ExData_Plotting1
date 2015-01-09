@@ -1,9 +1,9 @@
 ## Input file
 
-This assignment uses data from
+This assignment used data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
+datasets. In particular, we used the "Individual household
 electric power consumption Data Set".  It was available from
 
 
@@ -14,11 +14,11 @@ electric power consumption Data Set".  It was available from
 ## Loading the data
 
 
-* The dataset has 2,075,259 rows and 9 columns. I read in the data from 2/1/2007 and 2/2/2007.
+* The dataset has 2,075,259 rows and 9 columns. I read in the data from 2/1/2007 and 2/2/2007 into a data frame.
 
 * I opened the input file in NotePad and determined the line number where the 2/1/2007 data started.
 
-* I skipped all the data prior to 2/1/2007.
+* I skipped all the data prior to 2/1/2007.  This approach of skipping lines is not scalable if the input file is too large to open but it worked for this assignment.
 
 * Since the measurement was taken every 1 min., I computed the number of lines to read in by computing how many minutes were in the two days.
 
